@@ -1,16 +1,46 @@
-# React + Vite
+📝 Text Translator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based text translation app that allows users to enter text and translate it into different languages using the Google Translator API (RapidAPI).
+Built with:
 
-Currently, two official plugins are available:
+⚛️ React
+🎨 TailwindCSS
+🌍 Google Translate API
+🔁 Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+✏️ Translate any text instantly
+🌐 Supports multiple languages (Hindi, Telugu — more coming soon)
+🔁 Uses a clean loading indicator while fetching translation
+📌 Simple and modern UI
 
-## React Compiler
+🛠️ Tech Stack
+Technology	Purpose
+React	Frontend framework
+Axios	API handling
+TailwindCSS	Styling
+RapidAPI	Translation API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📦 Installation & Setup
 
-## Expanding the ESLint configuration
+Clone the repo:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone https://github.com/your-username/text-translator.git
+cd text-translator
+
+
+Install dependencies:
+npm install
+
+Run the app:
+npm run dev
+
+🔗 API Used
+Google Translator API (via RapidAPI)
+
+📌 Future Improvements
+
+Add more language options
+Auto-detect input language
+Voice input & text-to-speech
+Dark / Light mode
