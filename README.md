@@ -25,7 +25,7 @@ RapidAPI	Translation API
 
 Clone the repo:
 
-git clone https://github.com/your-username/text-translator.git
+git clone https://github.com/gayatri10-git/text-translator.git
 cd text-translator
 
 
